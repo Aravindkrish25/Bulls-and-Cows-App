@@ -1,19 +1,17 @@
 # Bulls-and-Cows-Android-App
-<ul>
-<li> The “Bull and Cows” is a game application developed using Android Studio. The front-end is developed using XML and backend is developed using Java. Bulls and Cows in an ancient code breaking mind game in which the player is required to identify a four-digit secret number by making guess.
-<li>Each guess made by the player in evaluated and the number bulls and cows are displayed. By analyzing the information, the player would be able to predict the correct code after a few attempts. Each digit of the secret code is a number between 1 and 9 and all digits are discrete.</li>
-<li>A Bull represents that a digit you have entered in present in the exact same position in the secret code. So, the number of bulls say the number of digits that are present in the secret code and also at the exact same position. </li>
-<li>For example,<br>
+- The “Bull and Cows” is a game application developed using `Android Studio`. The front-end is developed using `XML` and backend is developed using `Java`. Bulls and Cows in an ancient code breaking mind game in which the player is required to identify a four-digit secret number by making guess.
+- Each guess made by the player in evaluated and the number bulls and cows are displayed. By analyzing the information, the player would be able to predict the correct code after a few attempts. Each digit of the secret code is a number between 1 and 9 and all digits are discrete.</li>
+- A Bull represents that a digit you have entered in present in the exact same position in the secret code. So, the number of bulls say the number of digits that are present in the secret code and also at the exact same position. </li>
+- For example,<br>
 5146 - Actual Code<br>
 2186 - Guessed Code<br>
 The number of bulls in the above guess is two as digits 1 and 6 are there in the secret code and are also in the same position.</li>
-<li>A Cow represents that a digit you have entered is present in the secret code but not in the estimated position. So, the number of cows say the number of digits that are present in the secret code but not in the position that you have guessed. </li>
-<li>For example,<br>
+- A Cow represents that a digit you have entered is present in the secret code but not in the estimated position. So, the number of cows say the number of digits that are present in the secret code but not in the position that you have guessed. </li>
+- For example,<br>
 5146 - Actual Code<br>
 1594 - Guessed Code<br>
 The number of cows in the above guess is three as digits 1,4 and 5 are there in the secret code but not in the expected position.
-</li>
-</ul>
+
 <h2>App Screenshots</h2>
 <table border="0">
 <tr>
